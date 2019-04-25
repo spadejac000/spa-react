@@ -48,3 +48,57 @@ nav {
   color: white;
   text-decoration: none;
 }
+
+.main-content {
+  width: 90%;
+  margin: auto;
+  padding-bottom: 50px;
+}
+
+.main-content h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.home-image {
+  width: 100%;
+  height: 500px;
+  background-image: url('https://drraa3ej68s2c.cloudfront.net/wp-content/uploads/2019/02/24211315/0f4be43c4171da2bfcd53c97632fc0c8c1c86f858206393bcf7598f2b2ac6da7-770x443.jpg');
+  background-size: cover;
+  margin-bottom: 50px;
+  transition: all 0.3s ease-in-out;
+}
+
+.home-image:hover {
+  background-image: url('http://www.seesawmedia.co.uk/wp-content/uploads/2019/02/oscar-winners-2019.jpg');
+  cursor: pointer;
+  transform: scale(1.05);
+  transition: all 0.3 ease-in-out;
+}
+
+.thumbnail-container {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 50px;
+  width: 100%;
+}
+
+.home-thumbnail-1,
+.home-thumbnail-2,
+.home-thumbnail-3 {
+  background-size: cover;
+  width: 200px;
+  height: 100px;
+}
+
+.home-thumbnail-1 {
+  background-image: url('https://drraa3ej68s2c.cloudfront.net/wp-content/uploads/2017/02/26223655/37bc171bbec873547ca19161aaf1b1d43acf66d8d0482b1427f6d51034165919-770x443.jpg');
+}
+
+.home-thumbnail-2 {
+  background-image: url('https://cnet4.cbsistatic.com/img/n0AvhyMVUHMs2yzCyISDMiaj0y0=/1600x900/2019/02/25/ab6180c2-432d-4d66-ac2c-6a05c4fbb743/gettyimages-1127185347.jpg');
+}
+
+.home-thumbnail-3 {
+  background-image: url('https://www.etonline.com/sites/default/files/styles/max_970x546/public/images/2016-02/1280_denzel_washington_halle_berry_160225_810923.jpg?itok=y6_uEwkY');
+}
